@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint --yes)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint --yes --force)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Read(//c/Users/civim/desktop/claude-study-cafe/chapter2/**)",
+      "Bash(mv todo/.bkit /tmp/bkit_backup)",
+      "Bash(npx create-next-app@latest todo --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint --yes)",
+      "Bash(mv /tmp/bkit_backup todo/.bkit)"
+    ]
+  }
+}
